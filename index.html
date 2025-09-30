@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -10,21 +10,79 @@
 
 <body>
     <header>
-        <img id="logo" src="./img/Logo.png" alt="logo the tobbolist" />
-        <span class="logo-testo">Toboolist</span>
+        <!--Hero sezione-->
+        <section class="hero-sezione">
+            <img id="logo" src="./img/Logo.png" alt="logo the tobbolist" />
+            <span class="logo-testo">Toboolist</span>
+        </section>
     </header>
-    <div class="container">
-        <main>
-            <!--menu section-->
-            <section></section>
-
-            <!--end menu section-->
-
-            <!--menu lista-->
-            <section></section>
-            <!--end menu lista-->
-        </main>
-    </div>
+    <main>
+        <div class="container">
+            <div class="buttons">
+                <button class="add-task">Add Task</button>
+                <button class="add-section">Add Section</button>
+            </div>
+            <!--New Task-->
+            <section class="section">
+                <h2>New Task</h2>
+                <ul>
+                    <li class="done">
+                        <span class="status">&#10003;</span>
+                        Quarterly Newsletter
+                        <span class="tag editorial">Editorial</span>
+                    </li>
+                </ul>
+            </section>
+            <!--End New Task-->
+            <!--Today Section-->
+            <section class="section">
+                <h2>Today</h2>
+                <ul>
+                    <li class="done">
+                        <span class="status">&#10003;</span>
+                        Recruiting blog post
+                        <span class="tad editorial">Editorial</span>
+                    </li>
+                    <li class="done">
+                        <span class="status">&#10003;</span>
+                        Mobile app launch
+                        <span class="tag q1goals">Q1 Goals</span>
+                    </li>
+                    <li class="not-done">
+                        <span class="status">&#10007</span>
+                        Interview John H.
+                        <span class="tag recruiting">Recruiting</span>
+                    </li>
+                    <li class="done">
+                        <span class="status">&#10003;</span>
+                        Summit update to mobile storefronts
+                        <span class="tag mobile">Mobile</span>
+                    </li>
+                </ul>
+            </section>
+            <!--End Today Section-->
+            <!--Upcoming Section-->
+            <section class="section">
+                <h2>Upcoming</h2>
+                <ul>
+                    <li class="not/done">
+                        <span class="status">&#10007</span>
+                        Schedule meeting with Alex
+                    </li>
+                    <li class="done">
+                        <span class="status">&#10003</span>
+                        Onboard new Sales team members
+                        <span class="tag sales">Sales</span>
+                    </li>
+                    <li class="done">
+                        <span class="status">&#10003</span>
+                        Review editorial calendar
+                        <span class="tag editorial">Editorial</span>
+                    </li>
+                </ul>
+            </section> 
+            <!--End Upcoming Section-->    
+        </div>
 </body>
 
 </html>

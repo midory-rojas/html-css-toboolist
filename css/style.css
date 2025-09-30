@@ -9,6 +9,7 @@
 body {
     font-family:sans-serif;
     background-color:rgb(218, 216, 216) ;
+    color: #333;
 }
 
 /* Utlities */
@@ -22,23 +23,97 @@ body {
     margin-bottom: 30px;
 }
 /* Layout */
-.container {
-    width: 80px;
-    margin: 0 auto;
-
-}
 /* HEADER */
 header {
-    color:black;
-    padding: 10px;
-    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background:white;
+    border-bottom: 2px solid #eaeaea;
 }
-#logo {
-    height: 50px;
-    vertical-align: middle;
+.header h1 {
+    font-size: 30px;
+    font-weight: bold;
 }
-.logo-testo{
-    vertical-align: middle;
+.hero-sezione{
+    background-color: white;
 }
 /* MAIN */
+.container {
+    background:white;
+    padding: 30 px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+.section {
+    margin-bottom: 25px;
+}
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 12 px;
+    color:#383838;
+    font-weight: bold;
+}
+.ul {
+    list-style:none;
+}
+.li{
+    margin:10px 0;
+    font-size: 15 px;
+    display: flex;
+    align-items: center;
+}
+.status {
+    font-weight: bold;
+    margin-right: 12 px;
+    font-size: 16px;
+}
+.done.status {
+    color: #64c465;
+}
+.not-done.status {
+    color: #e94d4d;
+}
+.tag {
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    color:white;
+    margin-left: 8px;
+}
+.editorial {
+    background-color: #45abe9;
+}
+.q1goals {
+    background-color: #8a5c9c;
+}
+.recruiting {
+    background-color: #088f41;
+}
+.mobile {
+    background-color: #f9aa2a;
+}
+.website {
+    background-color: #5a4876;
+}
+.sales {
+    background-color: #23cc71;
+}
+/* BUTTONS */
+.buttons {
+    margin-bottom: 25 px;
+}
+button {
+    border:none;
+    border-radius: 6 px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.add-task {
+    background-color: #94cef4;
+    color: #7b7676;
+    cursor: not-allowed;
+}
 /* FOOTER */

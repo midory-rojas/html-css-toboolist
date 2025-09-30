@@ -8,6 +8,7 @@
 /* Typography */
 body {
     font-family:sans-serif;
+    background-color:rgb(218, 216, 216) ;
 }
 
 /* Utlities */
@@ -27,5 +28,17 @@ body {
 
 }
 /* HEADER */
+header {
+    color:black;
+    padding: 10px;
+    margin-right: 20px;
+}
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+.logo-testo{
+    vertical-align: middle;
+}
 /* MAIN */
 /* FOOTER */
